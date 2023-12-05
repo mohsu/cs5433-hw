@@ -1,0 +1,9 @@
+1. Deploy 03_ERC20.sol by Remix with 5000000000000000 Wei
+2. Copy and paste deployed contract address to attack.py original_address
+3. Deploy Attacker.sol by Remix
+4. Copy and paste deployed contract address to attack.py attacker_contract_address
+5. Run program `python3 attack.py`
+    (Program logics, no change is needed in code)
+    a. Deposit some money
+    b. Withdraw some money that is less than deposited, pay higher gas to let the function work recursively until balance below 0.05 ether
+    c. Check balance

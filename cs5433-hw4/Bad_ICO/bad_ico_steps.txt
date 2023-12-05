@@ -1,0 +1,7 @@
+1. Deploy contract by Remix
+2. Copy paste the contract address to bad_ico.py
+3. Run the program
+    (Program logics, no change is needed in code)
+    a. Deposit to the bonus cap (3133700000000000)
+    b. Deposit with bonus with some money
+    c. Check contract balance and totalSupply

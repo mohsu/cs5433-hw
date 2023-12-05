@@ -1,0 +1,7 @@
+1. Deploy the contract using Remix
+2. Copy paste the contract address into naive_programmer.py
+3. Run python program
+    (Program logics, no change is needed in code)
+    a. Intiatiate the choice1 as Alice, choice2 as Bob by using SourceTrixAreFor1337
+    (...Voting and casting votes process...)
+    b. while getCurrentWinner == "Alice", call SourceTrixAreFor1337 again to exchange choice1 and choice2 so that the Bob is always the winner

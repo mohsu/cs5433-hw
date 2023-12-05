@@ -1,0 +1,7 @@
+1. Deploy contract using Remix
+2. Copy paste the contract address into lost_ether.py
+3. Run the program `python3 lost_ether.py`
+    (Program logics, no change is needed in code)
+    a. Deposit some money
+    b. Withdraw some money less than deposit and add value when calling the function
+    c. print the result

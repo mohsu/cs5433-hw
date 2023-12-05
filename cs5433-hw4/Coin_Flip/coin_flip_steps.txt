@@ -1,0 +1,9 @@
+1. Deploy contract on Remix with 1000000000000000 and p2=0x3C4d46281Ace9ddd5fAB8438B6dfB92C553860E0(wallet address)
+2. Copy paste the deployed contract address to python code coin_flip.py
+3. Run the program `python coin_flip.py`
+    (Program logics, no change is needed in code)
+    a. Call deposit with value=500
+    b. Get starthash and endhash
+    c. Calculate the win
+    d. while win == 1, extend the game, gameend should add 5 by now, get updated endhash
+    e. Else resolve the game
